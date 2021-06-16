@@ -5,7 +5,7 @@
   // Get a random name
   function getNomeAleatorio() {
 
-    let url = 'http://www.whateverorigin.org/get?url=https://gerador-nomes.herokuapp.com/nome/aleatorio';
+    let url = 'https://thingproxy.freeboard.io/fetch/https://gerador-nomes.herokuapp.com/nome/aleatorio';
 
     fetch(url)
     .then(res => res.json())
