@@ -5,7 +5,7 @@
   // Get a random name
   function getNomeAleatorio() {
 
-    let url = 'https://thisisbinh.me/worker/proxy/gerador-nomes.herokuapp.com/nome/aleatorio';
+    let url = 'https://gerador-nomes.herokuapp.com/nome/aleatorio';
 
     fetch(url)
     .then(res => res.json())
