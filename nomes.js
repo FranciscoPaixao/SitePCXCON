@@ -34,7 +34,7 @@
 
   // Start Play
   function play() {
-    play_interval = setInterval(getNomeAleatorio, 3000);
+    play_interval = setInterval(getNomeAleatorio, 30000);
   }
 
   // Pause Play
