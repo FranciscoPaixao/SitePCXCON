@@ -4,6 +4,20 @@
 
   // Get a random name
   function getNomeAleatorio() {
+
+    let url = 'https://thisisbinh.me/worker/proxy/gerador-nomes.herokuapp.com/nome/aleatorio';
+
+    fetch(url)
+    .then(res => res.json())
+    .then((out) => {
+      // Refresh Display
+      refreshDisplay(out[0])
+    })
+    .catch(err => { throw err });
+  }
+  
+  /*
+  function getNomeAleatorio() {
   fetch(`https://api.allorigins.win/get?url=${encodeURIComponent('https://gerador-nomes.herokuapp.com/nome/aleatorio')}`)
                     .then(response => {
                       if (response.ok) return response.json()
@@ -11,7 +25,7 @@
                     })
                     .then(data => {refreshDisplay(JSON.parse(data.contents)[0]); console.log(JSON.parse(data.contents)[0])});
   }
-
+*/
   // Refresh Display
   function refreshDisplay(nome) {
     document.getElementById("nome1").textContent = nome
