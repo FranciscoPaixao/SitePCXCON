@@ -5,7 +5,7 @@
   // Get a random name
   function getNomeAleatorio() {
 
-    let url = 'https://gerador-nomes.herokuapp.com/nome/aleatorio';
+    let url = 'https://site-tap.herokuapp.com/url.php?url=https://gerador-nomes.herokuapp.com/nome/aleatorio';
 
     fetch(url)
     .then(res => res.json())
