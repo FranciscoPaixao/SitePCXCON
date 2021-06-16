@@ -7,45 +7,53 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <meta charset="UTF-8">
+    <style type="text/css">
+      //body {
+            background: #007bff;
+            background: linear-gradient(to right, #0062E6, #33AEFF);
+      }
+
+    </style>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>ProvaTAP</title>
 </head>
-<body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container">
+<body class="">
+  <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <div class="container">
 
-            <a class="navbar-brand h1 mb-0" href="#">Site</a>
+              <a class="navbar-brand h1 mb-0" href="#">Site</a>
 
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite">
+                  <span class="navbar-toggler-icon"></span>
+              </button>
 
-            <div class="collapse navbar-collapse" id="navbarSite">
+              <div class="collapse navbar-collapse" id="navbarSite">
 
-                <ul class="navbar-nav mr-auto">
+                  <ul class="navbar-nav mr-auto">
 
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">Inicio</a>
-                    </li>
+                      <li class="nav-item">
+                          <a href="#" class="nav-link">Inicio</a>
+                      </li>
 
-                    <li class="nav-item">
-                        <a href="#Sobre" class="nav-link">Sobre</a>
-                    </li>
+                      <li class="nav-item">
+                          <a href="#Sobre" class="nav-link">Sobre</a>
+                      </li>
 
-                    <li class="nav-item">
-                        <a href="#Contato" class="nav-link">Contato</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <center>
-    <h3>Site de nutrição</h3>
-    <img src="">
-    <i> muçum ipsuem</i>
-    </center>
+                      <li class="nav-item">
+                          <a href="#Contato" class="nav-link">Contato</a>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+      </nav>
+    </header>
+    <main role="main" class="container">
+      <h1 class="mt-5">Bem-vindo ao site de nutrição</h1>
+      <p class="lead"> Mussum Ipsum, cacilds vidis litro abertis. Diuretics paradis num copo é motivis de denguis. Nec orci ornare consequat. Praesent lacinia ultrices consectetur. Sed non ipsum felis. Delegadis gente finis, bibendum egestas augue arcu ut est. Per aumento de cachacis, eu reclamis.</p>
+    </main>
     
-  <section id="Contato">
+  <main class="container" id="Contato">
       <h3 align="center" >Contato</h3>
       <form>
         <div class="form-group">
@@ -67,12 +75,15 @@
           <textarea class="form-control" id="Texto" rows="3" placeholder="Texto"></textarea>
         </div>
   </form>
- </section>
- <footer>
-  <div class="footer-copyright text-center py-3">© 2021 Copyright:
-    <a href="https://condescending-mirzakhani-967aac.netlify.app/#"> Site de nutrição</a>
+  </main>
+<main class="container" id="Sobre">
+  <h3 class="mt-5" align="center">Sobre nós</h1>
+  <p class="lead"> Mussum Ipsum, cacilds vidis litro abertis. Diuretics paradis num copo é motivis de denguis. Nec orci ornare consequat. Praesent lacinia ultrices consectetur. Sed non ipsum felis. Delegadis gente finis, bibendum egestas augue arcu ut est. Per aumento de cachacis, eu reclamis.</p>
+</main>
+<footer class="py-4 bg-dark text-white-50">
+  <div class="container text-center">
+    <small>Copyright &copy; Site nutrição</small>
   </div>
-
 </footer>
 </body>
 </html>
