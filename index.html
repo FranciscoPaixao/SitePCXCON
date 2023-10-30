@@ -5,21 +5,25 @@
 -->
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <head>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script src="js/nomes.js"></script>
-    <meta charset="UTF-8">
-    <meta description="Site especializado em nutrição. Venha deixar seu corpo nutrido!">
+    <meta charset="UTF-8" />
+    <meta
+      description="Site especializado em nutrição. Venha deixar seu corpo nutrido!"
+    />
     <style type="text/css">
       body {
-            background: #90ee90;
-            background: linear-gradient(to right, #90ee90, #33AEFF);
+        background: #90ee90;
+        background: linear-gradient(to right, #90ee90, #33aeff);
       }
       .jumbotron.equipe {
-                  padding-top: 1% !important;
+        padding-top: 1% !important;
       }
       .bd-placeholder-img {
         font-size: 1.125rem;
@@ -35,49 +39,66 @@
         }
       }
     </style>
-    <link href="css/carousel.css" rel="stylesheet"/>
-    <link href="https://lipis.github.io/bootstrap-social/bootstrap-social.css" rel="stylesheet"/>
-    <link href="https://lipis.github.io/bootstrap-social/assets/css/font-awesome.css" rel="stylesheet"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <link href="css/carousel.css" rel="stylesheet" />
+    <link
+      href="https://lipis.github.io/bootstrap-social/bootstrap-social.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://lipis.github.io/bootstrap-social/assets/css/font-awesome.css"
+      rel="stylesheet"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+    />
     <title>PC-XCON</title>
-</head>
-<body>
-  
-  <!-- Seção do Header/Menu -->
+  </head>
+  <body>
+    <!-- Seção do Header/Menu -->
 
-  <header>
+    <header>
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-          <div class="container">
+        <div class="container">
+          <a class="navbar-brand h1 mb-0" href="#"
+            ><img
+              src="img/logo.png"
+              alt="Logo do site, contém uma maçã com um garfo."
+              width="28px"
+              height="25px"
+            />PC-XCON</a
+          >
 
-              <a class="navbar-brand h1 mb-0" href="#"><img src="img/logo.png" alt="Logo do site, contém uma maçã com um garfo." width="28px" height="25px">PC-XCON</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSite"
+            aria-label="Menu do site"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite" aria-label="Menu do site">
-                  <span class="navbar-toggler-icon"></span>
-              </button>
+          <div class="collapse navbar-collapse" id="navbarSite">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a href="index.html" class="nav-link">Inicio</a>
+              </li>
 
-              <div class="collapse navbar-collapse" id="navbarSite">
+              <li class="nav-item">
+                <a href="#Equipe" class="nav-link">Nossa Equipe</a>
+              </li>
 
-                  <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a href="#Contato" class="nav-link">Contato</a>
+              </li>
 
-                      <li class="nav-item">
-                          <a href="index.html" class="nav-link">Inicio</a>
-                      </li>
-
-                      <li class="nav-item">
-                        <a href="#Equipe" class="nav-link">Nossa Equipe</a>
-                      </li>
-
-                      <li class="nav-item">
-                          <a href="#Contato" class="nav-link">Contato</a>
-                      </li>
-
-                      <li class="nav-item">
-                        <a href="#Sobre" class="nav-link">Sobre</a>
-                      </li>
-
-                  </ul>
-              </div>
+              <li class="nav-item">
+                <a href="#Sobre" class="nav-link">Sobre</a>
+              </li>
+            </ul>
           </div>
+        </div>
       </nav>
     </header>
 
@@ -85,39 +106,84 @@
     <section class="jumbotron">
       <div class="container">
         <h3 class="display-6">Bem-vindo ao site do PC-XCON</h3>
-        <p class="lead">Somos um software baseado em IA que recomenda o melhor computador com base no seu perfil!</p>
+        <p class="lead">
+          Somos um software baseado em IA que recomenda o melhor computador com
+          base no seu perfil!
+        </p>
       </div>
     </section>
-   
+
     <!-- Seção do conteúdo -->
     <section class="container">
-        <div class="row">
-          <div class="col-md-4">
-            <img src="img/Foto1.png" alt="Imagem com relógio estampa de uma nota de dólar." class="bd-placeholder-img card-img-top" width="100%" height="225" role="img">
-            <h2>Economize tempo</h2>
-            <p class="lead">Tempo é DINHEIRO! Não perca mais seu tempo passando horas assistindo a reviews no YouTube para no fim não chegar a uma conclusão de qual computador comprar. O PC-XCON é capaz de recomendar o melhor computador em menos de 1 segundo!</p>
-          </div>
-          <div class="col-md-4">
-            <img src="img/Foto2.png" alt="Pessoa motando um PC" class="bd-placeholder-img card-img-top" width="100%" height="225" role="img">
-            <h2>Facil de usar</h2>
-            <p class="lead">É simples! Diga-nos como você pretende usar o seu computador, seja para tarefas de escritório com o pacote Office, modelagem 3D/AutoCAD ou qualquer outra coisa. Defina o seu orçamento e, pronto! O PC-XCON vai te mostrar a recomendação perfeita em menos de 1 segundo. Faça a escolha certa de forma rápida e descomplicada!</p>
-          </div>
-          <div class="col-md-4">
-            <img src="img/Foto3.png" alt="Fiscalizacoa de Licitacao com PC-XCON" class="bd-placeholder-img card-img-top" width="100%" height="225" role="img">
-            <h2>Auditoria com IA</h2>
-            <p class="lead">Revolutionário! Nossa tecnologia baseada em IA é a única capaz de identificar discrepâncias nas aquisições de computadores em licitações públicas. Descubra como estamos transformando a fiscalização com inteligência artificial de ponta.</p>
-          </div>
+      <div class="row">
+        <div class="col-md-4">
+          <img
+            src="img/Foto1.png"
+            alt="Imagem com relógio estampa de uma nota de dólar."
+            class="bd-placeholder-img card-img-top"
+            width="100%"
+            height="225"
+            role="img"
+          />
+          <h2>Economize tempo</h2>
+          <p class="lead">
+            Tempo é DINHEIRO! Não perca mais seu tempo passando horas assistindo
+            a reviews no YouTube para no fim não chegar a uma conclusão de qual
+            computador comprar. O PC-XCON é capaz de recomendar o melhor
+            computador em menos de 1 segundo!
+          </p>
         </div>
+        <div class="col-md-4">
+          <img
+            src="img/Foto2.png"
+            alt="Pessoa motando um PC"
+            class="bd-placeholder-img card-img-top"
+            width="100%"
+            height="225"
+            role="img"
+          />
+          <h2>Facil de usar</h2>
+          <p class="lead">
+            É simples! Diga-nos como você pretende usar o seu computador, seja
+            para tarefas de escritório com o pacote Office, modelagem 3D/AutoCAD
+            ou qualquer outra coisa. Defina o seu orçamento e, pronto! O PC-XCON
+            vai te mostrar a recomendação perfeita em menos de 1 segundo. Faça a
+            escolha certa de forma rápida e descomplicada!
+          </p>
+        </div>
+        <div class="col-md-4">
+          <img
+            src="img/Foto3.png"
+            alt="Fiscalizacoa de Licitacao com PC-XCON"
+            class="bd-placeholder-img card-img-top"
+            width="100%"
+            height="225"
+            role="img"
+          />
+          <h2>Auditoria com IA</h2>
+          <p class="lead">
+            Revolutionário! Nossa tecnologia baseada em IA é a única capaz de
+            identificar discrepâncias nas aquisições de computadores em
+            licitações públicas. Descubra como estamos transformando a
+            fiscalização com inteligência artificial de ponta.
+          </p>
+        </div>
+      </div>
     </section>
 
-   <!-- Seção de Contato-->
-   <section class="jumbotron" id="Contato"> 
-    <div class="container" id="Contato">
-        <h3 align="center" >Contato</h3>
+    <!-- Seção de Contato-->
+    <section class="jumbotron" id="Contato">
+      <div class="container" id="Contato">
+        <h3 align="center">Contato</h3>
         <form>
           <div class="form-group">
             <label for="email">Endereço de Email:</label>
-            <input type="email" class="form-control" id="Email" placeholder="fulano@gmail.com">
+            <input
+              type="email"
+              class="form-control"
+              id="Email"
+              placeholder="fulano@gmail.com"
+            />
           </div>
           <div class="form-group">
             <label for="Selecao">Motivo do contato:</label>
@@ -131,46 +197,84 @@
 
           <div class="form-group">
             <label for="Texto">Escreva aqui:</label>
-            <textarea class="form-control" id="Texto" rows="3" placeholder="Texto"></textarea>
+            <textarea
+              class="form-control"
+              id="Texto"
+              rows="3"
+              placeholder="Texto"
+            ></textarea>
           </div>
-    </form>
-    </div>
-  </section>
-
-  <!-- Seção Sobre Nós -->
-  <section class="container" id="Sobre">
-    <h3 class="mt-5" align="center">Sobre nós</h3>
-    <p class="lead">Somos uma startup que nasceu para descomplicar a vida de quem precisa escolher um computador. Oferecemos soluções baseadas em IA para a seleção do melhor computador com base no perfil do usuário. Nosso software também é capaz de fazer o caminho reverso e classificar o computador com base em suas peças e periféricos, sendo útil em auditorias fiscais dos Tribunais de Contas, facilitando a vida do auditor ao precificar o hardware de forma correta.</p>
-  </section>
-
-  <!-- Seção da Equipe-->
-  <section class="jumbotron equipe" id="Equipe">
-    <div class="container marketing">
-    <h3 class="mt-5" align="center">Nossa equipe</h3>
-    <br>
-    <div class="container">
-      <div class="col-lg-4">
-        <img src="img/foto-perfil-padrao.jfif" alt="Foto de perfil padrao" class="bd-placeholder-img rounded-circle" width="140" height="140" role="img">
-        <h2>Francisco</h2>
-        <p class="lead">Maoe! Essa div nao centraliza</p>
-        <a href="https://www.twitter.com/" class="btn btn-social-icon btn-twitter" aria-label="Twitter" target="_blank" rel="noreferrer">
-          <span class="fa fa-twitter"></span>
-        </a>
-        <a href="https://www.linkedin.com/" class="btn btn-social-icon btn-linkedin" aria-label="Linkedin" target="_blank" rel="noreferrer">
-          <span class="fa fa-linkedin"></span>
-        </a>       
+        </form>
       </div>
-    </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Seção do Footer -->
-  <footer class="py-4 bg-dark text-white-50">
-    <div class="container text-center">
-      <small>Copyright &copy; PC-XCON - Descomplicando Hardware</small>
-    </div>
-  </footer>
-</body>
+    <!-- Seção Sobre Nós -->
+    <section class="container" id="Sobre">
+      <h3 class="mt-5" align="center">Sobre o PC-XCON</h3>
+      <p class="lead">
+        O PC-XCON é um sistema especialista que utiliza Redes Bayesianas para
+        recomendar a melhor configuração de hardware para um computador
+        baseando-se no perfil de uso do usuário.
+      </p>
+      <h3 class="mt-5" align="center">Sobre nós</h3>
+      <p class="lead">
+        Somos uma startup que nasceu para descomplicar a vida de quem precisa
+        escolher um computador. Oferecemos soluções baseadas em IA para a
+        seleção do melhor computador com base no perfil do usuário. Nosso
+        software também é capaz de fazer o caminho reverso e classificar o
+        computador com base em suas peças e periféricos, sendo útil em
+        auditorias fiscais dos Tribunais de Contas, facilitando a vida do
+        auditor ao precificar o hardware de forma correta.
+      </p>
+    </section>
+
+    <!-- Seção da Equipe-->
+    <section class="jumbotron equipe" id="Equipe">
+      <div class="container marketing">
+        <h3 class="mt-5" align="center">Nossa equipe</h3>
+        <br />
+        <div class="container">
+          <div class="col-lg-4">
+            <img
+              src="img/foto-perfil-padrao.jfif"
+              alt="Foto de perfil padrao"
+              class="bd-placeholder-img rounded-circle"
+              width="140"
+              height="140"
+              role="img"
+            />
+            <h2>Francisco</h2>
+            <p class="lead">Maoe! Essa div nao centraliza</p>
+            <a
+              href="https://www.twitter.com/"
+              class="btn btn-social-icon btn-twitter"
+              aria-label="Twitter"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <span class="fa fa-twitter"></span>
+            </a>
+            <a
+              href="https://www.linkedin.com/"
+              class="btn btn-social-icon btn-linkedin"
+              aria-label="Linkedin"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <span class="fa fa-linkedin"></span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção do Footer -->
+    <footer class="py-4 bg-dark text-white-50">
+      <div class="container text-center">
+        <small>Copyright &copy; PC-XCON - Descomplicando Hardware</small>
+      </div>
+    </footer>
+  </body>
 </html>
 <!--
 
